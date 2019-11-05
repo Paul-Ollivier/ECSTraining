@@ -53,11 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EntityCache\Rotate.cs" />
-     <Compile Include="Assets\EntityCache\RotateAuthoring.cs" />
-     <Compile Include="Assets\LevelComponent.cs" />
-     <Compile Include="Assets\LevelUpSystem.cs" />
-     <Compile Include="Assets\Testing.cs" />
+     <Compile Include="Assets\01_Rotating\Scripts\Rotate.cs" />
+     <Compile Include="Assets\01_Rotating\Scripts\RotateAuthoring.cs" />
+     <Compile Include="Assets\01_Rotating\Scripts\RotateSystem.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -94,6 +92,9 @@
  <Reference Include="Unity.Scenes.Editor">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Physics">
+ <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -112,6 +113,9 @@
  <Reference Include="Unity.Rendering.Hybrid">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Physics.Hybrid">
+ <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
@@ -129,6 +133,9 @@
  </Reference>
  <Reference Include="Unity.Properties">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Physics.Editor">
+ <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Entities">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
@@ -150,15 +157,6 @@
  </Reference>
  <Reference Include="Unity.Transforms.Hybrid">
  <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Physics">
- <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Physics.Hybrid">
- <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Physics.Editor">
- <HintPath>/Users/pol/DEV/GIT/ECSTraining/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0b1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
